@@ -11,11 +11,11 @@ import (
 	"github.com/opentracing/opentracing-go"
 )
 
-const USERNAME = "root"      //"your user name"
-const PASSWORD = "vitalik88" //"your password"
-const HOST = "localhost"     //"your host"
-const PORT = "3306"          //"your port"
-const DB = "usersdb"         //"your db name"
+const USERNAME = "your user name"
+const PASSWORD = "your password"
+const HOST = "your host"
+const PORT = "your port"
+const DB = "your db name"
 
 const DATASOURCENAME = USERNAME + ":" + PASSWORD + "@tcp(" + HOST + ":" + PORT + ")/" + DB
 
